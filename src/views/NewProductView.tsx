@@ -4,7 +4,7 @@ import FormComponent from "../components/FormComponent"
 const NewProductView = () => {
     return (
         <>
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center flex-col sm:flex-row gap-2">
                 <h2 className="text-4xl font-black text-slate-500">Nuevo Producto</h2>
                 <Link
                     to={'/'}
