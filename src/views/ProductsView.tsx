@@ -10,7 +10,7 @@ export async function loader() {
 
 const ProductsView = () => {
 
-  const products : ProductsResponse = useLoaderData() as ProductsResponse;
+  const products: ProductsResponse = useLoaderData() as ProductsResponse;
 
   return (
     <>
@@ -23,7 +23,10 @@ const ProductsView = () => {
           Agregar Contenido
         </Link>
       </div>
-      <ProductTable products={products} />
+      <div>
+        <ProductTable products={products} />
+
+      </div>
     </>
   )
 }

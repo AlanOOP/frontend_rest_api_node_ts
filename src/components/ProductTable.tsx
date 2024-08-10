@@ -45,7 +45,7 @@ const ProductTable = ({ products }: ProductTableProps) => {
 
     return (
 
-        <div className="p-2">
+        <div className="p-2 relative overflow-x-auto">
             <table className="w-full mt-5 table-auto">
                 <thead className="bg-slate-800 text-white">
                     <tr>
